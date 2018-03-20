@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+int n,a,b,c;
+scanf("%d",&n);
+a=n/2;
+b=a/2;
+c=b%2;
+if(b==0)
+printf("Power of 2");
+else
+printf("Not a Power of 2");
+}
